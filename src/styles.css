@@ -7,10 +7,10 @@ body {
     font-size: 15px;
     background-color: #242424;
     color: #FFFFFF;
-  }
+}
   
-  /* Stile Navbar */
-  .navbar {
+/* Stile Navbar */
+.navbar {
     display: flex;
     justify-content: center; /* Centrare il logo */
     align-items: center;
@@ -18,17 +18,17 @@ body {
     background-color: #052D3A;
     margin-top: 1rem; /* Margine in alto */
     position: relative; /* Per posizionare il menu */
-  }
-  
-  .navbar-logo {
+}
+
+.navbar-logo {
     text-align: center;
-  }
-  
-  .navbar-logo img {
+}
+
+.navbar-logo img {
     height: 120px; /* Aumentare la dimensione del logo */
-  }
-  
-  .navbar-menu {
+}
+
+.nav-links {
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -36,43 +36,43 @@ body {
     margin: 0;
     position: absolute; /* Posizionare il menu */
     right: 1rem; /* Posizionare il menu a destra */
-  }
-  
-  .navbar-menu li a {
+}
+
+.nav-links a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .navbar-menu li a:hover {
+}
+
+.nav-links a:hover {
     text-decoration: underline;
-  }
-  
-  /* Stile MenuCategory */
-  .menu-category {
+}
+
+/* Stile MenuCategory */
+.menu-category {
     margin: 2rem;
-  }
-  
-  .menu-category h2 {
+}
+
+.menu-category h2 {
     border-bottom: 2px solid #FFFFFF;
     padding-bottom: 0.5rem;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .menu-items {
+}
+
+.menu-items {
     display: flex;
     flex-wrap: wrap; /* Permette il wrapping delle card su più righe se necessario */
     gap: 1rem;
-  }
-  
-  /* Stile MenuItem */
-  .menu-item {
+}
+
+/* Stile MenuItem */
+.menu-item {
     display: block;
     text-decoration: none;
     color: #FFFFFF;
-  }
-  
-  .menu-item-card {
+}
+
+.menu-item-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,79 +83,122 @@ body {
     transition: transform 0.2s;
     width: 200px; /* Dimensioni delle card */
     height: 180px;
-  }
-  
-  .menu-item-card:hover {
+}
+
+.menu-item-card:hover {
     transform: scale(1.05);
-  }
-  
-  .menu-item-info {
+}
+
+.menu-item-info {
     text-align: center;
     font-family: 'Georgia', serif;
-  }
-  
-  .menu-item-price {
+}
+
+.menu-item-price {
     font-weight: bold;
     color: #FFD700; /* Colore dorato per il prezzo */
-  }
-  
-  /* Stile DishDetails */
-  .dish-details {
+}
+
+/* Stile DishDetails */
+.dish-details {
     padding: 2rem;
-  }
-  
-  .dish-details h1, .dish-details h3 {
+}
+
+.dish-details h1, .dish-details h3 {
     margin: 1rem 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .dish-details ul {
+}
+
+.dish-details ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .dish-details ul li {
+}
+
+.dish-details ul li {
     background-color: #093A48;
     margin: 0.5rem 0;
     padding: 0.5rem;
     border-radius: 5px;
-  }
-  
-  /* Media Queries per smartphone */
-  @media (max-width: 768px) {
+}
+
+/* Stile WineList */
+.wine-list {
+    padding: 20px;
+    color: #ffffff;
+}
+
+.wine-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.wine-card {
+    background-color: #084C61;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.wine-card h3 {
+    margin-top: 0;
+}
+
+.wine-card p {
+    margin: 5px 0;
+}
+
+.wine-image {
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+/* Media Queries per smartphone */
+@media (max-width: 768px) {
+    
     .navbar {
-      flex-direction: column;
-      margin-top: 0;
-      padding: 1rem;
+        flex-direction: column;
+        margin-top: 0;
+        padding: 1rem;
     }
-  
+
     .navbar-logo img {
-      height: 80px; /* Ridurre la dimensione del logo su schermi piccoli */
+        height: 80px; /* Ridurre la dimensione del logo su schermi piccoli */
     }
-  
-    .navbar-menu {
-      flex-direction: column;
-      position: static; /* Rimuovere il posizionamento assoluto */
-      margin-top: 1rem;
-      gap: 0.5rem;
+
+    .nav-links {
+        flex-direction: column;
+        position: static; /* Rimuovere il posizionamento assoluto */
+        margin-top: 1rem;
+        gap: 0.5rem;
     }
-  
+
     .menu-category {
-      margin: 1rem;
+        margin: 1rem;
     }
-  
+
     .menu-items {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .menu-item-card {
-      width: 200px; 
-      margin: 0.5rem 0;
+        width: 200px; 
+        margin: 0.5rem 0;
     }
-  
+
     .dish-details {
-      padding: 1rem;
+        padding: 1rem;
     }
-  }
-  
+
+    .wine-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}

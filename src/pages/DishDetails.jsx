@@ -14,7 +14,7 @@ const DishDetails = () => {
     <div className="dish-details">
       <h1>{dish.name}</h1>
       <p>{dish.description}</p>
-      <h3>Allergens:</h3>
+      
       <ul>
         {dish.allergens.map(allergen => (
           <li key={allergen}>{allergen}</li>
