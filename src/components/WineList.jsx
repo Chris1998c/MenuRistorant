@@ -232,7 +232,7 @@ const wines = [
       name: "Don Filì",
       Cantina: "Serracavallo",
       image:
-        "https://www.fishandwine-store.it/1650-side_product_default/don-fili-.jpg",
+        "https://www.enotecalacantinetta.com/wp-content/uploads/2023/10/don-fili-di-serracavallo-terre-di-cosenza-dop-510x510.jpeg",
       description:
         "Bianco robusto dal bel colore giallo paglierino. Molto profumato ai frutti a pasta bianca, mandorla e frutta secca, si sente il passaggio in legno. Bocca piena e intensa e di grande spessore. Uve vinificate separatamente,  in serbatoi di acciaio termocondizionati con pressatura soffice.Vino perfetto per piatti di pesce importanti e anche grassi, fritture, carne bianca, uova, formaggi a pasta molle.",
         price:"€30,00"
