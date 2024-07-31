@@ -177,6 +177,38 @@ const wines = [
         price:"€30,00"
     },
     {
+      id: 15,
+      name: "MONAMOUR BIANCO FRIZZANTE",
+      Cantina: "Spadafora",
+      image:
+        "https://www.eurodrinkcalabria.it/ProductsResources/672/VINSPA013_0_pr.jpeg?1675206477",
+      description:
+        "Prodotto da uve Pecorello della Cantina Spadafora, vinificate in purezza da cui si ottiene questo vino bianco unico, in produzione limitata. La sua particolarità è la vigna ad alberello di antica data, l’uva veniva utilizzata come uva da taglio nei vini TOP di gamma. Con la vendemmia 2021 Ippolito Spadafora ha deciso di vinificarlo in purezza. Eccellente aperitivo, il Pandosia è abbinamento ideale della cucina marinara, ottimo con un semplice spaghetto alle vongole veraci oppure degustato con una delicata grigliata di pescato locale.",
+        price:"€25,00"
+    },
+    {
+      id: 15,
+      name: " Madreperla Bianco Vino Spumante Brut ",
+      Cantina: "Spadafora",
+      image:
+        "https://shop.lacosentina.com/cdn/shop/products/vino-spumante-brut-madreperla-bianco-spadafora-912731_720x.jpg?v=1620848790",
+      description:
+        "Prodotto da uve Pecorello della Cantina Spadafora, vinificate in purezza da cui si ottiene questo vino bianco unico, in produzione limitata. La sua particolarità è la vigna ad alberello di antica data, l’uva veniva utilizzata come uva da taglio nei vini TOP di gamma. Con la vendemmia 2021 Ippolito Spadafora ha deciso di vinificarlo in purezza. Eccellente aperitivo, il Pandosia è abbinamento ideale della cucina marinara, ottimo con un semplice spaghetto alle vongole veraci oppure degustato con una delicata grigliata di pescato locale.",
+        price:"€25,00"
+    },
+    {
+      id: 15,
+      name: " MADREPERLA ROSATO SPADAFORA ",
+      Cantina: "Spadafora",
+      image:
+        "https://www.eurodrinkcalabria.it/ProductsResources/1002/SPUSPA004_0_pr.jpeg?1698880261",
+      description:
+        "Prodotto da uve Pecorello della Cantina Spadafora, vinificate in purezza da cui si ottiene questo vino bianco unico, in produzione limitata. La sua particolarità è la vigna ad alberello di antica data, l’uva veniva utilizzata come uva da taglio nei vini TOP di gamma. Con la vendemmia 2021 Ippolito Spadafora ha deciso di vinificarlo in purezza. Eccellente aperitivo, il Pandosia è abbinamento ideale della cucina marinara, ottimo con un semplice spaghetto alle vongole veraci oppure degustato con una delicata grigliata di pescato locale.",
+        price:"€20,00"
+    },
+
+
+    {
       id: 16,
       name: "Quattro Lustri DOP Rosso ",
       Cantina: "Serracavallo",
@@ -184,7 +216,7 @@ const wines = [
         "https://shop.lacosentina.com/cdn/shop/products/vino-quattro-lustri-terre-di-cosenza-dop-rosso-serracavallo-460706_720x.jpg?v=1657189752",
       description:
         "L’idea di questo vino era fare un rosso da solo magliocco ma di pronta beva. Il nome celebra i 20 anni dell’azienda Serracavallo ed i quattro cloni di magliocco esistenti in azienda.Un vino dalla bevibilità disarmante, si presenta con un colore rosso violaceo compatto, con profumi di spezie dolci, frutta nera e caffè. In bocca dona il meglio di se, pieno succoso, tannini setosi come piuma, grande bevibilità e “ souplesse “, polpa, invitante, un sorso invita al successivo.Questi sono vini mediterranei, solari, buona l’acidità in sottofondo quasi impercettibile ma presente, i 600 mt di altitudine dei vigneti assicurano una ottima escursione termica, uve sane con il giusto grado di maturazione ed acidità allo stesso tempo.Pronto da bere subito, ma se riposa in bottiglia renderà al meglio. Ottimo con primi a base di carne o verdure, secondi di carne, arrosti, grigliate o salumi e formaggi semistagionati.",
-        price:"€25,00"
+        price:"€20,00"
     },
     {
       id: 38,

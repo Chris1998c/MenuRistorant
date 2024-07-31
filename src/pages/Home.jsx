@@ -10,7 +10,7 @@ const dishes = {
         price:14},
     {
         id: 2,
-        name: "Ovetto pochè con crema di piselli, porri e fonduta al gorgonzola", 
+        name: "Gazpacho con crostini", 
         description: "Tomato, basil, garlic",
         price:10
     },
@@ -37,7 +37,7 @@ const dishes = {
   primi: [
     {
       id: 6,
-      name: "Scialatielli alla gricia e lime",
+      name: "Scialatielli alla gricia con fichi e lime",
       description: "Eggs, cheese, pancetta",
       price:14
       
@@ -57,7 +57,7 @@ const dishes = {
       },
       {
         id: 9,
-        name: "Fregola seppia e i suo nero ",
+        name: "Fregola seppia e il suo nero ",
         description: "Eggs, cheese, pancetta",
         price:16
         
@@ -69,12 +69,7 @@ const dishes = {
         price:14
       } ,
 
-      {
-      id: 10,
-        name: "Paccheri con pomodorini bruciati e baccalà",
-        description: "Eggs, cheese, pancetta",
-        price:14
-      },
+
         
   ],
   secondi: [
@@ -103,6 +98,12 @@ const dishes = {
         description: "Grilled T-bone steak",
         price:18
       },
+      {
+        id: 3,
+        name: "Filetto di maialino cbt con insalata di nopales",
+        description: "Grilled T-bone steak",
+        price:18
+      },
     
   ],
   dessert: [
@@ -126,7 +127,7 @@ const dishes = {
       },
       {
         id: 4,
-        name: "Caprese con gelato alla vaniglia e mini Mojito",
+        name: "Caprese con gelato alla vaniglia e mini cocktail",
         description: "Coffee-flavoured dessert",
         price:6
       },
@@ -135,23 +136,23 @@ const dishes = {
   Degustazione:[
     {
             id: 29,
-            name: "Caponata di mare ///Ceciche di orata",
+            name: "Caponata di mare || Ceciche di orata",
             
-            price:0
+            
           },
           {
         
             id: 30 ,
-            name: "Gnocchetto pesto di rucola /// Pacchero con pomodorini bruciati ",
+            name: "Gnocchetto pesto di rucola || Tagliatelle al nero ",
             
-            price:0
+            
           },
           {
         
             id: 31 ,
-            name: "Polpo con patate /// Baccalà con hummus",
+            name: "Polpo con patate || Baccalà con hummus",
             
-            price:0
+            
           },
           
     
