@@ -15,12 +15,6 @@ const dishes = {
         price:10
     },
     {
-        id: 3,
-        name: "Ceviche di orata con salsa ponzu aromatizzata alla cipolla di tropea e peperone crusco", 
-        description: "Tomato, basil, garlic",
-        price:14
-    },
-    {
         id: 4,
         name: "Battuta di manzo con pistacchi e senape all'arancia", 
         description: "Tomato, basil, garlic",
@@ -37,7 +31,7 @@ const dishes = {
   primi: [
     {
       id: 6,
-      name: "Scialatielli alla gricia con fichi e lime",
+      name: "Spaghetto alla chitarra alla gricia con fichi e lime",
       description: "Eggs, cheese, pancetta",
       price:14
       
@@ -55,13 +49,7 @@ const dishes = {
         description: "Eggs, cheese, pancetta",
         price:18
       },
-      {
-        id: 9,
-        name: "Fregola seppia e il suo nero ",
-        description: "Eggs, cheese, pancetta",
-        price:16
-        
-      },
+
       {
         id: 9,
         name: "Gnocchetti pesto di rucola, mandorle, agrumi e crudo di gambero",
@@ -75,7 +63,7 @@ const dishes = {
   secondi: [
     {
       id: 3,
-      name: "Filetto al pepe verde con patate fondenti",
+      name: "Scamone al pepe verde con patate fondenti",
       description: "Grilled T-bone steak",
       price:18
       
@@ -86,12 +74,7 @@ const dishes = {
         description: "Grilled T-bone steak",
         price:18
       },
-      {
-        id: 3,
-        name: "Quaglia in porchetta con salsa al granturco e verdure ripassate",
-        description: "Grilled T-bone steak",
-        price:18
-      },
+ 
       {
         id: 3,
         name: "Polpo con patate salsa al nero e cipolla aromatizzata ai frutti rossi",
@@ -136,14 +119,14 @@ const dishes = {
   Degustazione:[
     {
             id: 29,
-            name: "Caponata di mare || Ceciche di orata",
+            name: "Caponata di mare || Tacos di tonno",
             
             
           },
           {
         
             id: 30 ,
-            name: "Gnocchetto pesto di rucola || Tagliatelle al nero ",
+            name: "Gnocchetto pesto di rucola || Paccheri al ragout di polpo ",
             
             
           },
