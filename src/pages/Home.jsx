@@ -126,7 +126,7 @@ const dishes = {
           {
         
             id: 30 ,
-            name: "Gnocchetto pesto di rucola || Paccheri al ragout di polpo ",
+            name: "Gnocchetto pesto di rucola || Tagliatelle al nero ",
             
             
           },
