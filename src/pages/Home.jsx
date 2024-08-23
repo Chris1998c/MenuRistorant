@@ -36,13 +36,6 @@ const dishes = {
       price:14
       
     },
-    {
-        id: 7,
-        name: "Ravioli ripieni di ricotta, borragine e mandorle con fonduta al pecorino",
-        description: "Eggs, cheese, pancetta",
-        price:12
-
-      },
       {
         id: 8,
         name: "Tagliatelle al nero di seppia con vongole e spuma di prezzemolo",
@@ -70,7 +63,7 @@ const dishes = {
     },
     {
         id: 3,
-        name: "Baccalà con hummus di ceci aromatizzati al limone e pomodorini confit",
+        name: "Branzino con salsa alla mugnaia e verdure ripassate ",
         description: "Grilled T-bone steak",
         price:18
       },
@@ -110,7 +103,7 @@ const dishes = {
       },
       {
         id: 4,
-        name: "Caprese con gelato alla vaniglia e mini cocktail",
+        name: "Caprese con gelato alla vaniglia",
         description: "Coffee-flavoured dessert",
         price:6
       },
