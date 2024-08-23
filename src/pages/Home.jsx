@@ -15,6 +15,12 @@ const dishes = {
         price:10
     },
     {
+      id: 45,
+      name: "Ceviche di orata con salsa ponzu, cipolla di tropea, peperone crusco e croccante alla paprika ", 
+      description: "Tomato, basil, garlic",
+      price:10
+  },
+    {
         id: 4,
         name: "Battuta di manzo con pistacchi e senape all'arancia", 
         description: "Tomato, basil, garlic",
@@ -126,7 +132,7 @@ const dishes = {
           {
         
             id: 31 ,
-            name: "Polpo con patate || Baccalà con hummus",
+            name: "Polpo con patate || branzino ",
             
             
           },
