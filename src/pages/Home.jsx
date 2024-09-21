@@ -7,13 +7,9 @@ const dishes = {
     { id: 1,
          name: "Caponata di mare", 
          description: "Tomato, basil, garlic",
+         Image:"..//assets/Cevic.png",
         price:14},
-    {
-        id: 2,
-        name: "Gazpacho con crostini", 
-        description: "Tomato, basil, garlic",
-        price:10
-    },
+   
     {
       id: 45,
       name: "Ceviche di orata con salsa ponzu, cipolla di tropea, peperone crusco e croccante alla paprika ", 
@@ -55,21 +51,20 @@ const dishes = {
         description: "Eggs, cheese, pancetta",
         price:14
       } ,
+      {
+        id: 9,
+        name: "Paccheri con rogout di polpo",
+        description: "Eggs, cheese, pancetta",
+        price:14
+      } 
 
 
         
   ],
   secondi: [
     {
-      id: 3,
-      name: "Scamone al pepe verde con patate fondenti",
-      description: "Grilled T-bone steak",
-      price:18
-      
-    },
-    {
         id: 3,
-        name: "Branzino con salsa alla mugnaia e verdure ripassate ",
+        name: "Baccalà cbt con hummus di ceci epomodorini confit ",
         description: "Grilled T-bone steak",
         price:18
       },
@@ -125,14 +120,14 @@ const dishes = {
           {
         
             id: 30 ,
-            name: "Gnocchetto pesto di rucola || Tagliatelle al nero ",
+            name: "Gnocchetto pesto di rucola || Paccheri con ragout di polpo ",
             
             
           },
           {
         
             id: 31 ,
-            name: "Polpo con patate || branzino ",
+            name: "Polpo con patate || baccalà ",
             
             
           },
@@ -149,6 +144,7 @@ const Home = () => {
       <MenuCategory category="Secondi" dishes={dishes.secondi} />
       <MenuCategory category="Dessert" dishes={dishes.dessert} />
       <MenuCategory category="Degustazione €35,00" dishes={dishes.Degustazione}/>
+      
     </div>
   );
 };
